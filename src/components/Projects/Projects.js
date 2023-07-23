@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Text-Summarizer"
+              description=" A text summarizer is a program or tool that automatically generates a concise and coherent summary of a given text or document."
+              ghLink="https://github.com/Shashankbangera07/Text-Summarizer-Project"
+              
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Cell Segmentation Using Yolo v8"
+              description="Cell segmentation is a crucial task in biomedical image analysis, where the goal is to identify and isolate individual cells from microscopy images. Accurate cell segmentation is essential for various biological and medical applications, including cell counting, tracking, and studying cell behaviors."
+              ghLink=""
+              
             />
           </Col>
 
@@ -47,10 +47,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Chicken Disease Classification"
+              description="Chicken Disease Classification is a specific application of machine learning and computer vision techniques aimed at automatically identifying and categorizing different diseases that affect chickens or other poultry species. The goal of this project is to develop a system that can analyze images or data related to chickens' health and accurately classify the presence of specific diseases or health conditions.
+
+              "
+              ghLink="https://github.com/Shashankbangera07/Chicken-Disease-Classification--Project-final"
+              demoLink=""              
             />
           </Col>
 
@@ -58,10 +60,12 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Big Mart Prediction And Deployment
+
+              "
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/shashankb07/Big-Mart-Prediction-And-Deployment"
+
             />
           </Col>
 
@@ -69,24 +73,26 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Olympic Analysis
+              
+              "
+              description=" Olympic analysis project involves the exploration, visualization, and interpretation of data related to the Olympic Games. The goal of such a project is to gain insights into the historical performance and trends of participating countries and athletes, as well as to identify patterns and interesting statistics related to the Olympic events."
+              ghLink="https://github.com/shashankb07/Olympic-Analysis"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/shashankb07/Face-Mask-Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+            /> */}
+          {/* </Col> */}
         </Row>
       </Container>
     </Container>
