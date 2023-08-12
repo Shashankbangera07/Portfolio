@@ -21,11 +21,23 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Spotify Recommender System"
+              description=" Spotify's recommender system is a sophisticated technology that uses data and algorithms to provide personalized music recommendations to its users. The primary goal of this system is to suggest songs, artists, albums, and playlists that align with the user's musical preferences and listening habits. This enhances the user experience by helping them discover new music that they might enjoy"
+              ghLink="https://github.com/Shashankbangera07/Spotify-recommender-system"
+              
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Text-Summarizer"
+              title="Text Summarizer"
               description=" A text summarizer is a program or tool that automatically generates a concise and coherent summary of a given text or document."
               ghLink="https://github.com/Shashankbangera07/Text-Summarizer-Project"
               
@@ -93,6 +105,7 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             /> */}
           {/* </Col> */}
+          
         </Row>
       </Container>
     </Container>
